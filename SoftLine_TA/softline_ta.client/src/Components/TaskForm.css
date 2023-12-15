@@ -1,0 +1,16 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#form>label, #submitButton{
+    margin-top: 20px;
+}
+
+#desc {
+    height: 100px;
+    text-wrap: wrap;
+    resize: none;
+    max-width: 15em;
+}
